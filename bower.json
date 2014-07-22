@@ -1,0 +1,23 @@
+{
+  "name": "ajaxform",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dbrekalo/ajaxform",
+  "authors": [
+    "Damir Brekalo <dbrekalo@gmail.com>"
+  ],
+  "description": "JS handler for handling async forms",
+  "main": "dist/ajaxform.min.js",
+  "keywords": [
+    "ajax",
+    "form",
+    "ajaxform"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
