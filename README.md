@@ -54,3 +54,9 @@ AjaxForm.defaults = {
 	'afterSubmitFail': null
 };
 ```
+##Instalation
+
+Plugin is initally is $.wk namespace - alias it to your desired namespace.
+```javascript
+app.ajaxForm = $.wk.ajaxForm;
+```
