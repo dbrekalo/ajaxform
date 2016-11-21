@@ -55,7 +55,7 @@ AjaxForm.defaults = {
 	'afterValidationError': null,
 	'onSubmitSuccess': null,
 	'afterSubmitSuccess': null,
-	'afterSubmitFail': null
+	'onSubmitFail': null
 };
 ```
 ##Instalation
