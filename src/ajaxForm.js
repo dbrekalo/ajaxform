@@ -59,10 +59,8 @@
 
 			}, this)).fail($.proxy(function(jqXHR){
 
-				if(jqXHR.status === this.options.validationErrorStatus) {
-
+				if (jqXHR.status === this.options.validationErrorStatus) {
 					this.onValidationError(jqXHR.responseText);
-
 				} else {
 					this.options.onSubmitFail && this.options.onSubmitFail(jqXHR);
 				}
@@ -120,7 +118,7 @@
 		'afterValidationError': null,
 		'onSubmitSuccess': null,
 		'afterSubmitSuccess': null,
-		'afterSubmitFail': null
+		'onSubmitFail': null
 	};
 
 	$.wk = $.wk || {};
